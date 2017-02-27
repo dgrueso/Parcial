@@ -41,5 +41,37 @@ body {
 	width: 5%
 }
 
+#header
+{
+	margin:auto;
+	width:500px;
+	font-family:Arial, Helvetica, sans-serif;
+	/* ORGANIZAR EL TEXTO A LA DERECHA --float: left;*/
+	 position:top:absolute
+	margin: auto;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+
+	
+
+}
+#ar1
+{
+	
+	border-style: groove;
+	background-color:#FFF8DC;
+	
+}
+
+figure {
+    display: block;
+    webkit-margin-before: 1em;
+    webkit-margin-after: 1em;
+    webkit-margin-start: 150px;
+    webkit-margin-end: 40px;
+	float:left;
+}
+
+
 
 
