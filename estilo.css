@@ -49,7 +49,7 @@ body {
 	/* ORGANIZAR EL TEXTO A LA DERECHA --float: left;*/
 	 position:top:absolute
 	margin: auto;
-    width: 700px;
+    width: 600px;
     font-family: Arial, Helvetica, sans-serif;
 
 	
@@ -104,6 +104,14 @@ figure {
  */
 .ec-stars-wrapper > a:hover ~ a {
 	color: #888;
+}
+
+#aside1{
+	float:right;
+	width: 300px;
+	height: 930px;
+	background-color: black;
+
 }
 
 
