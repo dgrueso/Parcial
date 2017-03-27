@@ -130,13 +130,20 @@ figure {
 .ec-stars-wrapper > a:hover ~ a {
 	color: #888;
 }
+
+#pie_pagina
+{
+	
+}
 /*DISEÑO DE LA BARRA LATERAL*/
-#barra_lateral{
+#barra_lateral
+{
 	border: 2px solid #FFF8DC;
 	float:right;
 	width: 300px;
 	height: 930px;
 	background-color: #FFF8DC;
+	box-shadow: 0px 0px 20px  #FFFFFF;
 }
 #f1 {
    border: 2px solid #FFF8DC;
