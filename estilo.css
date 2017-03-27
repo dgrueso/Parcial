@@ -79,6 +79,7 @@ header label:hover
 /*EL DISEÑO DE LOS ARCULOS DE LA PAGINA WEB*/
 #header
 {
+
 	margin:auto;
 	/*width:500px;*/
 	/* ORGANIZAR EL TEXTO A LA DERECHA --float: left;*/
@@ -130,7 +131,7 @@ figure {
 	color: #888;
 }
 /*DISEÑO DE LA BARRA LATERAL*/
-#aside1{
+#barra_lateral{
 	border: 2px solid #FFF8DC;
 	float:right;
 	width: 300px;
@@ -195,6 +196,13 @@ img:hover {
 	{
 		border-radius: 0px 0%;
 	}
+	/*FIN DE LOS ARTICULOS DEL BLOG RESPONSIVE*/
+	/*FIN DE LA BARRA LATERAL DEL BLOG RESPONSIVE*/
+	#barra_lateral
+	{
+		display: none;
+	}
+	/*FIN DE LA BARRA LATERAL DEL BLOG RESPONSIVE*/
 	/*FIN DEL MENU RESPONSIVE*/
 /*FIN DEL RESPONSIVE MEDIANO*/	
 }
