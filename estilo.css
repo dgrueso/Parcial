@@ -1,10 +1,17 @@
-body {
-
+/*EL DISEÑO DEL CUERPO DEL BLOG*/
+body 
+{
 	background-image: url('principal.jpg');
 	background-repeat: no-repeat;
 	background-size: 1800px  1400px;
 }
-
+/*EL DISEÑO DEL ENCABEZADO */
+.header
+{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
+}
+/*EL DISEÑO DEL BLOG*/
 .top_menu ul
 {
     list-style-type: none;
@@ -13,56 +20,42 @@ body {
     overflow: hidden;
     background-color: black;
 }
-
- 
-
 .top_menu ul li
-
 {
     float: left;
 }
-
 .top_menu ul li a
-
 {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 .top_menu li a:hover {
     background-color: #111;
 }
-
 .E1{
 	height: 5%
 	width: 5%
 }
-
+/*EL DISEÑO DE LOS ARCULOS DE LA PAGINA WEB*/
 #header
 {
 	margin:auto;
 	width:500px;
-	font-family:Arial, Helvetica, sans-serif;
 	/* ORGANIZAR EL TEXTO A LA DERECHA --float: left;*/
 	 position:top:absolute
 	margin: auto;
     width: 600px;
     font-family: Arial, Helvetica, sans-serif;
-
-	
-
 }
 #ar1
 {
-	
 	border-style: groove;
-	background-color:#FFF8DC;
-	
+	background-color:#FFF8DC;	
 }
-
+/*DISEÑO DE LAS IMAGENES DEL BLOG*/
 figure {
     display: block;
     webkit-margin-before: 1em;
@@ -71,11 +64,7 @@ figure {
     webkit-margin-end: 40px;
 	float:left;
 }
-
-
-
-
-
+	/*DISEÑO ESTRELLAS DE LOS COMENTARIOS*/
 .ec-stars-wrapper {
 	
 	font-size: 0;
@@ -90,7 +79,6 @@ figure {
 	
 	color: #888;
 }
-
 .ec-stars-wrapper:hover a {
 	color: rgb(39, 130, 228);
 }
@@ -100,18 +88,14 @@ figure {
 .ec-stars-wrapper > a:hover ~ a {
 	color: #888;
 }
-
+/*DISEÑO DE LA BARRA LATERAL*/
 #aside1{
 	border: 2px solid #FFF8DC;
 	float:right;
 	width: 300px;
 	height: 930px;
 	background-color: #FFF8DC;
-
 }
-
-
-
 #f1 {
    border: 2px solid #FFF8DC;
     padding: 5px;
@@ -121,7 +105,6 @@ figure {
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-
 #f2{
 	border: 2px solid #FFF8DC;
     padding: 4px;
@@ -129,6 +112,7 @@ img:hover {
     height: 180px;
     float:left;
 }
+
 
 
 
